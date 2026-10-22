@@ -5,6 +5,7 @@
   --bright-blue: #0088E8;
   --transparent-blue: rgba(0, 96, 192, 0.10);
   --white: #FFFFFF;
+  --off-white: #F7F9FC;
 }
 
 /* Global Reset */
@@ -40,6 +41,7 @@ h1{
   font-family: "Palanquin", sans-serif;
   font-weight: 700;
   font-style: normal;
+  color:var(--dark-blue);
 }
 
 /* nav--nav--nav--nav--nav--nav--nav--nav--nav--nav--nav--nav--nav--nav */
@@ -158,8 +160,17 @@ p.subtopic {
   border:solid 1px var(--transparent-blue);
 }
 
+/* product---product---product--commodity--commodit */
+.commodityItem{
+  padding:35px 20px;
+  border-radius: 10px;
+ box-shadow: 0 2px 0 3px var(--transparent-blue);
+}
 
-
+/* serve---service--serve */
+#service{
+  background: var(--off-white);
+}
 
 
 
