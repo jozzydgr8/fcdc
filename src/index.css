@@ -1,5 +1,6 @@
 :root {
   --dark-blue: #002050;
+  --darker-blue: #001533;
   --blue: #0060C0;
   --bright-blue: #0088E8;
   --transparent-blue: rgba(0, 96, 192, 0.10);
@@ -118,8 +119,8 @@ backdrop-filter: blur(1px);
 
 .icon-style {
   font-size: 32px;
-  background: var(--transparent-green); /* gradient from dark to light blue */
-  color: var(--light-green);
+  background: var(--transparent-blue); /* gradient from dark to light blue */
+  color: var(--bright-blue);
   padding: 14px;
   border-radius: 10px;
   display: inline-flex; /* ensures icon stays centered if needed */
@@ -134,6 +135,62 @@ p.subtopic {
     margin-bottom: 15px;
 }
 
+
+/* hero--section hero--section hero--section */
+#hero{
+  background-image:url('./asset/warehouse.jpg');
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#hero .container-fluid{
+    color: var(--white);
+  min-height: 80vh;
+  background: linear-gradient(
+  to right,
+  var(--darker-blue),
+  transparent 200% );
+}
+.statItem{
+  padding:20px 10px;
+  background: var(--darker-blue);
+  border-radius: 10px;
+  border:solid 1px var(--transparent-blue);
+}
+
+
+
+
+
+
+
+
+
+
+
+/* animation animation animation animation animation animation */
+.sectionAnimationLeft{
+  scroll-behavior: smooth;
+  animation: backInLeft;
+  animation-duration: 1.5s;
+}
+.sectionAnimationDown{
+  scroll-behavior: smooth;
+  animation:fadeInDownBig;
+  animation-duration: 1.2s;
+}
+
+.sectionAnimationUp{
+  scroll-behavior: smooth;
+  animation:fadeInUpBig;
+  animation-duration: 1.2s;
+
+}
+.sectionAnimationRight{
+  scroll-behavior: smooth;
+  animation: backInRight;
+  animation-duration: 1.2s;
+}
 
 
 
