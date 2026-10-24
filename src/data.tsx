@@ -3,6 +3,9 @@ import {
   EnvironmentOutlined,
   SafetyCertificateOutlined,
   CustomerServiceOutlined,
+    ShoppingCartOutlined,
+  TruckOutlined,
+  InboxOutlined,
 } from '@ant-design/icons';
 
 export const stats = [
@@ -30,7 +33,7 @@ export const stats = [
 
 export const commodities = [
   {
-    "title": "Sugar",
+    "title": "AN NUR Sugar",
     "description": "Granulated, refined and industrial grades in bulk and retail packs."
   },
   {
@@ -65,3 +68,30 @@ export const serve = [
     "description": "Quality essential food products for households and community buyers."
   }
 ]
+
+export const whyChooseUs = [
+  {
+    title: "Efficient sourcing",
+    description:
+      "We partner with trusted producers to secure quality commodities at competitive prices.",
+    icon: ShoppingCartOutlined,
+  },
+  {
+    title: "Timely delivery",
+    description:
+      "A reliable delivery network gets stock to you on schedule — every time.",
+    icon: TruckOutlined,
+  },
+  {
+    title: "Quality assurance",
+    description:
+      "Every batch is checked against quality standards before it reaches your shelf.",
+    icon: SafetyCertificateOutlined,
+  },
+  {
+    title: "Bulk & custom supply",
+    description:
+      "Flexible volumes and custom distribution solutions sized to your operation.",
+    icon: InboxOutlined,
+  },
+];

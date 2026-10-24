@@ -6,6 +6,7 @@
   --transparent-blue: rgba(0, 96, 192, 0.10);
   --white: #FFFFFF;
   --off-white: #F7F9FC;
+  --emerald-green: #0B6B50;
 }
 
 /* Global Reset */
@@ -154,7 +155,7 @@ p.subtopic {
   transparent 200% );
 }
 .statItem{
-  padding:20px 10px;
+  padding:20px 15px;
   background: var(--darker-blue);
   border-radius: 10px;
   border:solid 1px var(--transparent-blue);
@@ -172,12 +173,25 @@ p.subtopic {
   background: var(--off-white);
 }
 
+/* whatwedo--whatwedo--whatwedo--whatwedo */
+#whatwedo{
+  background: var(--dark-blue);
+  color: var(--white);
+}
+
+/* cta--cta--cta--cta--cta */
+#cta{
+  background: var(--emerald-green);
+  color:white
+}
 
 
 
 
-
-
+footer{
+  background-color: var(--darker-blue);
+  color: var(--white);
+}
 
 /* animation animation animation animation animation animation */
 .sectionAnimationLeft{
