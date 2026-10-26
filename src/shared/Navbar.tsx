@@ -43,15 +43,11 @@ export const Navbar = () => {
               </a>
             </li>
            
-            <li className="nav-item">
-              <a href={`#projects`} className="nav-link active">
-                    Contact Us
-              </a>
-            </li>
+            
             
             <li className="nav-item">
            
-                <FlatButton title='Get Free Consultation' className='btn btnPrimary 'onClick={()=>handleRequest('Hi, I’d like to get a free consultation for a construction project. I’d appreciate some guidance on the best options.')}/>
+                <FlatButton title='Contact Us' className='btn btnPrimary 'onClick={()=>handleRequest('Hi, I’d like to enquire about FCDCN’s food commodities supply.')}/>
              
             </li>
 

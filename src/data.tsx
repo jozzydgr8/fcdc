@@ -33,23 +33,34 @@ export const stats = [
 
 export const commodities = [
   {
-    "title": "AN NUR Sugar",
-    "description": "Granulated, refined and industrial grades in bulk and retail packs."
+    title: "AN NUR Sugar",
+    description:
+      "Granulated, refined and industrial grades in bulk and retail packs.",
+    message:
+      "Hello, I’m interested in AN NUR Sugar. Please share your available grades, packaging options, pricing, and minimum order quantities."
   },
   {
-    "title": "Flour",
-    "description": "Wheat, bread and confectionery flours for bakers and food producers."
+    title: "Flour",
+    description:
+      "Wheat, bread and confectionery flours for bakers and food producers.",
+    message:
+      "Hello, I’m interested in your flour products. Please share the available types, packaging options, prices, and minimum order quantities."
   },
   {
-    "title": "Salt",
-    "description": "Table, industrial and food-grade salt in sacks and bags."
+    title: "Salt",
+    description:
+      "Table, industrial and food-grade salt in sacks and bags.",
+    message:
+      "Hello, I’m interested in your salt products. Please provide details on available grades, packaging sizes, pricing, and minimum order quantities."
   },
   {
-    "title": "More staples",
-    "description": "Rice, beans, cooking oils and other essential food products."
+    title: "More staples",
+    description:
+      "Rice, beans, cooking oils and other essential food products.",
+    message:
+      "Hello, I’m interested in your other staple food products, including rice, beans, and cooking oils. Please share your available products, prices, and bulk purchase options."
   }
-]
-
+];
 export const serve = [
   {
     "title": "Businesses & food producers",

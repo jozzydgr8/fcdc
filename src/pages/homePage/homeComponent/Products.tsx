@@ -1,8 +1,10 @@
 import { commodities } from "../../../data"
-
+import { FlatButton } from "../../../shared/FlatButton"
+import {ArrowRightOutlined} from '@ant-design/icons'
+import { handleRequest } from "../../../shared/handleRequest"
 export const Products = ()=>{
     return(
-        <section>
+        <section id="products">
             <div className='container-fluid'>
 
                 <div className="row ">
@@ -27,7 +29,13 @@ export const Products = ()=>{
                             <div className="commodityItem animate-up">
                                 <h3 className='sub-heading'>{commodity.title}</h3>
                                 <p>{commodity.description}</p>
+
+                                <div>
+                                <FlatButton style={{color:'var(--bright-blue)'}} onClick={()=>handleRequest(`${commodity.message}`)} className="btn borderlessbtn" title="learn more" icon={<ArrowRightOutlined/>}/>
+                                </div>
+
                             </div>
+                            
                         </div>
                     ))}
                 </div>

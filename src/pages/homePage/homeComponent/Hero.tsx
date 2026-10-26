@@ -44,8 +44,8 @@ export const Hero = ()=>{
 
                             <br/> <br/>
                             <div className='heroBottom'>
-                                <FlatButton icon={<RightOutlined />} title='Get your qoute' className='btn btnPrimary btn-xl ' onClick={()=>handleRequest('Hi, I’d like to get a free consultation for a construction project. I’d appreciate some guidance on the best options.')}/>    
-                                <a href='/#services' className='btn btnSecondary btn-xl'>View Our Products</a>
+                                <FlatButton icon={<RightOutlined />} title='Get your qoute' className='btn btnPrimary btn-xl ' onClick={()=>handleRequest('Hi, I’d like to request a quote for FCDCN’s food commodities supply.')}/>    
+                                <a href='/#products' className='btn btnSecondary btn-xl'>View Our Products</a>
                             </div>
                                 <br/>
                             <div>

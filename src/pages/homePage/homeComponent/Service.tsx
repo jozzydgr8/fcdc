@@ -4,7 +4,7 @@ import componentImage from '../../../asset/Teamwork-Among-Fresh-Produce-Crates.p
 
 export const Service = ()=>{
     return(
-        <section id="service" >
+        <section id="services" >
             <div className="container-fluid">
                 <div className="row ">
                     <div className="col-md-6 mb-2 ">

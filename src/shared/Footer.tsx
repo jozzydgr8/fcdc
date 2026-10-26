@@ -19,40 +19,49 @@ export const Footer = ()=>{
                         wholesalers and consumers across Nigeria.
                     </p>
                     
-                        <div>
-                            <PhoneOutlined style={{color:'var(--primary-green)'}}/> 08032965669
-                        </div>
-                    <div>
-                        <MailOutlined style={{color:'var(--primary-green)'}} /> fc.distributioncompany@gmail.com <br/>
-                    </div>
-                    <div>
+                       <div className='d-flex align-items-center gap-3 mb-2'>
+                         <PhoneOutlined className='icon-style'  />
+                        <a
+                            href="tel:08032965669"
 
-                    </div>
+                        >
+                             08032965669
+                        </a>
+                        </div>
+
+                        <div className='d-flex align-items-center gap-3'>
+                            <MailOutlined className='icon-style' /> 
+                        <a
+                            href="mailto:fc.distributioncompany@gmail.com"
+                            
+                        >
+                            fc.distributioncompany@gmail.com
+                        </a>
+                        </div>
+                    
                     </div>
 
                     <div className="col-md-3">
                         <h3>COMPANY</h3><br/>
                         <a href='/#about'>About us</a><br/><br/>
 
-                        <FlatButton className=' borderlessbtn' title='Contact Us'/><br/><br/>
+                        <FlatButton className=' borderlessbtn' title='Contact Us' onClick={()=>handleRequest('Hi, I’d like to enquire about FCDCN’s food commodities supply.')}/><br/><br/>
                     </div>
 
                     <div className="col-md-3">
                         <h3>Products</h3><br/>
-                        <p>Our Products</p>
-                        <p>Services</p>
-                        <p>Who We Serve</p>
-                        <p>Why Choose Us</p>
+                        <a href="#products">Our Products</a><br/><br/>
+                        <a href="#services">Services</a><br/><br/>
+                        <a href="#products">Who We Serve</a><br/><br/>
+                        <a href="#whatwedo">Why Choose Us</a><br/><br/>
                         
                     </div>
 
                     <div className="col-md-3">
                         <h3>Get in touch</h3><br/>
-                        <p>
-                           Place an Order
-                        </p>
-                        <p>Request a Quote</p>
-                        <p>Partners & Suppliers</p>
+                       
+                         <FlatButton className=' borderlessbtn' title='Request quote' onClick={()=>handleRequest('Hi, I’d like to request a quote for FCDCN’s food commodities supply.')}/><br/><br/>
+                       
                         <br/>
                         <FlatButton onClick={()=>handleRequest('Hi, I’d like to get a free consultation .')} title='Free Consultation' icon={<ArrowRightOutlined/>} className='btn btn-lg btnPrimary'/><br/>
 

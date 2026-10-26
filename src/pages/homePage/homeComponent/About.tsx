@@ -2,7 +2,7 @@ import imageone from '../../../asset/warehouse.jpg';
 import imageTwo from '../../../asset/checkingsupply.avif';
 export const About = ()=>{
     return(
-        <section>
+        <section id='about'>
             <div className="container-fluid">
                 <div className="row">
                     <div className="col-md-6">
